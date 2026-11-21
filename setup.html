@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pemasangan — Daarul Fikr</title><meta name="robots" content="noindex">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--h:#0f5d3f;--t:#08402b;--e:#c9a24a}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Nunito Sans',sans-serif;background:#f4f6f2;color:#1d2b24;line-height:1.7}
+header{background:var(--t);color:#fff;padding:36px 5%;text-align:center}
+header h1{font-family:Amiri,serif;font-size:2.2rem}header p{color:#cfe2d7}
+main{width:min(820px,92%);margin:28px auto 60px}
+.s{background:#fff;border:1px solid #dfe6e0;border-radius:16px;padding:26px;margin-bottom:18px}
+.s h2{font-family:Amiri,serif;color:var(--t);font-size:1.5rem;display:flex;gap:12px;align-items:center;margin-bottom:8px}
+.s h2 b{background:var(--e);color:var(--t);width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font-family:'Nunito Sans';font-size:1rem}
+ol{padding-left:22px;margin:8px 0}li{margin-bottom:4px}
+textarea,input{width:100%;padding:12px;border:1.5px solid #c5cfc8;border-radius:10px;font:inherit;margin-top:8px}
+textarea{min-height:130px;font-family:monospace;font-size:13px}
+pre{background:#0d2a1e;color:#d9eadf;padding:14px;border-radius:10px;overflow:auto;font-size:12px;max-height:240px;margin-top:10px;white-space:pre-wrap}
+.btn{display:inline-block;margin:10px 8px 0 0;padding:11px 20px;border:0;border-radius:10px;background:var(--h);color:#fff;font:inherit;font-weight:700;cursor:pointer}
+.btn.e{background:var(--e);color:var(--t)}.btn:disabled{opacity:.45;cursor:not-allowed}
+.ok{color:var(--h);font-weight:700;margin-top:8px}.bad{color:#c0392b;font-weight:700;margin-top:8px}
+code{background:#eef3ef;padding:1px 6px;border-radius:5px}
+</style><link rel="icon" type="image/png" href="data:image/png;base64,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">
+</head><body>
+<header><h1>Pemasangan Website Daarul Fikr</h1><p>Ikuti 4 langkah. Halaman ini membuatkan file yang Anda butuhkan.</p></header>
+<main>
+<div class="s"><h2><b>1</b>Buat proyek Firebase</h2>
+<ol><li>Buka <b>console.firebase.google.com</b> dan login dengan akun Google.</li>
+<li><b>Add project</b> → beri nama → selesai.</li>
+<li><b>Build → Firestore Database → Create database</b> → lokasi <code>asia-southeast2 (Jakarta)</code> → mode production.</li>
+<li><b>Build → Authentication → Get started → Email/Password → Enable</b>. Tab <b>Users → Add user</b>: buat akun admin (email + password kuat). Catat emailnya.</li>
+<li><b>Project settings (roda gigi) → Your apps → ikon Web &lt;/&gt;</b> → daftarkan app. Salin kode <code>firebaseConfig</code> yang muncul.</li></ol></div>
+
+<div class="s"><h2><b>2</b>Buat firebase-config.js</h2>
+<p>Tempel kode <code>firebaseConfig</code> dari Firebase di bawah ini.</p>
+<textarea id="cfg" placeholder='const firebaseConfig = {&#10;  apiKey: "...",&#10;  authDomain: "...",&#10;  projectId: "...",&#10;  appId: "..."&#10;};'></textarea>
+<button class="btn" id="b1">Buat file</button><button class="btn e" id="d1" disabled>Unduh firebase-config.js</button>
+<div id="m1"></div><pre id="o1" style="display:none"></pre></div>
+
+<div class="s"><h2><b>3</b>Buat aturan keamanan (Rules)</h2>
+<p>Masukkan email admin yang Anda buat di langkah 1.</p>
+<input id="em" type="email" placeholder="email-admin@gmail.com">
+<button class="btn" id="b2">Buat rules</button><button class="btn e" id="c2" disabled>Salin rules</button>
+<p style="margin-top:10px">Lalu buka <b>Firestore Database → tab Rules</b>, hapus isinya, tempel, klik <b>Publish</b>.</p>
+<div id="m2"></div><pre id="o2" style="display:none"></pre></div>
+
+<div class="s"><h2><b>4</b>Upload dan aktifkan</h2>
+<ol><li>Upload ke hosting: <code>index.html</code>, <code>admin.html</code>, <code>ortu.html</code>, <code>db.js</code>, <code>konten.js</code>, <code>konten-default.js</code>, <code>site-config.js</code>, <code>firebase-config.js</code> (hasil langkah 2), <code>logo.png</code>, dan <code>favicon.png</code>. Pilihan hosting ada di PANDUAN.md (Firebase Hosting, Netlify, atau cPanel).</li>
+<li>Di Firebase: <b>Authentication → Settings → Authorized domains → Add domain</b> → isi alamat website Anda.</li>
+<li>Buka <code>alamat-anda/admin.html</code>, login, isi <b>Pengaturan Situs</b>, lalu klik <b>Muat data contoh</b> di tab Program dan Jadwal.</li>
+<li>Uji daftar dari HP, terima di admin, lalu cek status.</li></ol></div>
+</main>
+<script>
+var $=function(i){return document.getElementById(i)},cfgText='';
+var RULES=`rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signed() { return request.auth != null; }
+    // GANTI dengan email akun admin yang Anda buat di Firebase Authentication.
+    // Hanya email di daftar ini yang dianggap admin. Akun orang tua TIDAK bisa menjadi admin.
+    function admin() {
+      return signed() && request.auth.token.email in ['GANTI-DENGAN-EMAIL-ADMIN@gmail.com'];
+    }
+    // Orang tua hanya boleh mengakses data anak yang sudah ditautkan ke akunnya.
+    function ownerOf(sid) {
+      return signed()
+        && exists(/databases/$(database)/documents/santri/$(sid))
+        && get(/databases/$(database)/documents/santri/$(sid)).data.get('ortuUid', '') == request.auth.uid;
+    }
+
+    // Akun Kepala: dibuat admin di menu Akun Pengajar (peran Kepala).
+    function kepala() {
+      return signed()
+        && exists(/databases/$(database)/documents/staf/$(request.auth.uid))
+        && get(/databases/$(database)/documents/staf/$(request.auth.uid)).data.get('peran', '') == 'Kepala'
+        && get(/databases/$(database)/documents/staf/$(request.auth.uid)).data.get('status', 'Aktif') != 'Nonaktif';
+    }
+
+    // ---- Santri ----
+    match /santri/{id} {
+      // Publik boleh mendaftar. Jika menyertakan ortuUid, harus uid akun yang sedang login.
+      allow create: if request.resource.data.status == 'Menunggu'
+        && request.resource.data.nama is string && request.resource.data.nama.size() < 100
+        && request.resource.data.keys().hasAll(['nama', 'no', 'hp', 'ortu'])
+        && (!('ortuUid' in request.resource.data) || (signed() && request.resource.data.ortuUid == request.auth.uid));
+      allow read: if signed() && resource.data.get('ortuUid', '') == request.auth.uid;
+      // Orang tua hanya boleh mengubah kontak anaknya.
+      allow update: if signed() && resource.data.get('ortuUid', '') == request.auth.uid
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['hp', 'alamat']);
+    }
+
+    // ---- Data anak: orang tua hanya membaca; boleh mengajukan izin/sakit ----
+    match /absensi/{id} {
+      allow read: if ownerOf(resource.data.sid);
+      allow create: if ownerOf(request.resource.data.sid)
+        && request.resource.data.ket in ['Izin', 'Sakit']
+        && request.resource.data.keys().hasOnly(['tanggal', 'sid', 'snama', 'ket', 'catatan', 'oleh', 'tgl']);
+    }
+    match /hafalan/{id} { allow read: if ownerOf(resource.data.sid); }
+    match /bayar/{id} { allow read: if ownerOf(resource.data.sid); }
+
+    // ---- Akun orang tua ----
+    match /ortu/{uid} {
+      allow read, create, update: if signed() && request.auth.uid == uid;
+    }
+    match /tautan/{id} {
+      allow create: if signed() && request.resource.data.uid == request.auth.uid
+        && request.resource.data.status == 'Menunggu'
+        && request.resource.data.keys().hasOnly(['uid', 'nama', 'hp', 'no', 'lahir', 'status', 'tgl']);
+      allow read: if signed() && resource.data.uid == request.auth.uid;
+    }
+
+    // ---- Publik ----
+    match /status/{no} {
+      allow get: if true;
+      allow create: if request.resource.data.status == 'Menunggu';
+    }
+    match /pengumuman/{id} { allow read: if true; }
+    match /program/{id} { allow read: if true; }
+    match /jadwal/{id} { allow read: if true; }
+    match /pengajar/{id} { allow read: if true; }
+    match /galeri/{id} { allow read: if true; }
+    match /pengaturan/{id} { allow read: if true; }
+    match /sorotan/{id} { allow read: if true; }
+    match /keunggulan/{id} { allow read: if true; }
+    match /alur/{id} { allow read: if true; }
+    match /faq/{id} { allow read: if true; }
+    match /statistik/{id} { allow read: if true; }
+    match /agenda/{id} { allow read: if true; }
+    match /testimoni/{id} { allow read: if true; }
+    match /struktur/{id} { allow read: if true; }
+
+    // ---- Kepala: melihat data dan mengelola pengumuman ----
+    match /staf/{uid} { allow read: if signed() && request.auth.uid == uid; }
+    match /{col}/{id} {
+      allow read: if kepala() && col in ['santri', 'absensi', 'hafalan', 'bayar', 'staf', 'struktur'];
+    }
+    match /pengumuman/{id} { allow write: if kepala(); }
+
+    // ---- Admin: semuanya ----
+    match /{col}/{id} { allow read, write: if admin(); }
+  }
+}
+`;
+$('b1').onclick=function(){
+  var t=$('cfg').value,o={};
+  ['apiKey','authDomain','projectId','appId'].forEach(function(k){var m=new RegExp(k+'\\s*:\\s*["\']([^"\']+)["\']').exec(t);if(m)o[k]=m[1]});
+  var miss=['apiKey','projectId','appId'].filter(function(k){return!o[k]});
+  if(miss.length){$('m1').className='bad';$('m1').textContent='Belum lengkap, tidak ditemukan: '+miss.join(', ')+'. Salin seluruh blok firebaseConfig dari Firebase.';return}
+  if(!o.authDomain)o.authDomain=o.projectId+'.firebaseapp.com';
+  cfgText='window.FIREBASE_CONFIG = {\n  apiKey: "'+o.apiKey+'",\n  authDomain: "'+o.authDomain+'",\n  projectId: "'+o.projectId+'",\n  appId: "'+o.appId+'"\n};\n';
+  $('o1').textContent=cfgText;$('o1').style.display='block';$('d1').disabled=false;$('m1').className='ok';$('m1').textContent='Berhasil. Unduh file ini dan upload bersama website.';
+};
+$('d1').onclick=function(){var a=document.createElement('a');a.href=URL.createObjectURL(new Blob([cfgText],{type:'text/javascript'}));a.download='firebase-config.js';a.click()};
+var rulesOut='';
+$('b2').onclick=function(){
+  var e=$('em').value.trim().toLowerCase();
+  if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(e)){$('m2').className='bad';$('m2').textContent='Isi email admin yang valid.';return}
+  rulesOut=RULES.replace('GANTI-DENGAN-EMAIL-ADMIN@gmail.com',e);
+  $('o2').textContent=rulesOut;$('o2').style.display='block';$('c2').disabled=false;$('m2').className='ok';$('m2').textContent='Rules siap disalin.';
+};
+$('c2').onclick=function(){navigator.clipboard.writeText(rulesOut).then(function(){$('m2').textContent='Tersalin. Tempel di Firebase → Rules → Publish.'},function(){$('o2').focus();$('m2').textContent='Salin manual dari kotak hitam.'})};
+</script></body></html>
